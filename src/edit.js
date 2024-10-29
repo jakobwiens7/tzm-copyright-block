@@ -41,9 +41,9 @@ export default function edit( {
 
     const currentYear = new Date().getFullYear().toString();
 
-    let yearHtml = ( yearFormat === 'y' ? currentYear.slice(-2) : currentYear );
+    let yearHtml = ( yearFormat === 'y' ? "'" + currentYear.slice(-2) : currentYear );
     if ( isRange && startingYear && startingYear !== currentYear ) {
-        yearHtml = ( yearFormat === 'y' ? startingYear.toString().slice(-2) : startingYear ) + " - " + yearHtml;
+        yearHtml = ( yearFormat === 'y' ? "'" + startingYear.toString().slice(-2) : startingYear ) + " - " + yearHtml;
     }
 
     const blockProps = useBlockProps( {

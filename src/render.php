@@ -11,7 +11,7 @@
  * @see https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-metadata.md#render
  */
 
-$current_year = date('Y');
+$current_year = gmdate('Y');
 
 $is_short =
     isset($attributes['yearFormat']) &&
@@ -23,11 +23,11 @@ $is_range =
     ($attributes['startingYear'] !== $current_year);
 
 $year_html = $is_short
-    ? $current_year % 100
+    ? "'" . substr($current_year, -2)
     : $current_year;
 
 if ($is_range) {
-    $year_html = ($is_short ? $attributes['startingYear'] % 100 : $attributes['startingYear']) . " - " . $year_html;
+    $year_html = ($is_short ? "'" . substr($attributes['startingYear'], -2) : $attributes['startingYear']) . " - " . $year_html;
 }
 
-echo str_replace("{%YYYY%}", $year_html, $content);
+echo wp_kses_post(str_replace("{%YYYY%}", $year_html, $content));

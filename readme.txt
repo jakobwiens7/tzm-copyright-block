@@ -1,22 +1,23 @@
 === TZM Copyright Block ===
-Contributors:      jakobwiens7
-Tags:              block, theme, copyright, footer, year
-Requires at least: 6.4.0
-Tested up to:      6.6.2
-Stable tag:        1.0.0
-Requires PHP:      7.4.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Contributors:       jakobwiens
+Tags:               block, theme, copyright, footer, year
+Requires at least:  6.4.0
+Tested up to:       6.6.2
+Stable tag:         1.0.0
+Requires PHP:       7.4.0
+License:            GPLv2 or later
+License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-A simple block to display a copyright notice with an automatically updated year.
+A simple block to display a copyright notice with a dynamically updated year.
 
 
 == Description ==
 
-The **TZM Copyright Block** is designed to streamline the display of copyright notices on websites. This plugin displays a copyright symbol with a dynamically updated year, making it ideal for users who want a set-it-and-forget-it solution to keeping copyright information accurate and current.
+The **TZM Copyright Block** is designed to streamline the display of copyright notices on websites. This plugin displays a copyright symbol with an automatically updated year, making it ideal for users who want a set-it-and-forget-it solution to keeping copyright information accurate and current.
+
 You can customize the copyright display to fit your needs by adding prefixes and suffixes, setting year ranges, and choosing between full-year or two-digit formats. Seamlessly integrated with the WordPress Block Editor (Gutenberg), this plugin ensures that setting up your copyright information is quick, easy, and requires no coding knowledge. 
 
-It dynamically updates the year, so there’s no need to manually update the date on each page — a convenient solution for both individual sites and large-scale networks.
+It dynamically displays the year, so there’s no need to manually update the date on each website every year — a convenient solution for both individual sites and large-scale networks.
 
 
 == Installation ==
@@ -39,8 +40,7 @@ No, TZM Copyright Block is specifically designed for the WordPress Block Editor 
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk).
+1. Quickly setup and customize your copyright notice using the native controls you’re familiar with.
 
 
 == Changelog ==

@@ -95,7 +95,7 @@ msgstr "Zwei Ziffern"
 #. Plugin Name of the plugin
 #: tzm-copyright-block.php
 msgid "TZM Copyright Block"
-msgstr "TZM Copyright-Block"
+msgstr "TZM Copyright Block"
 
 #: build/index.js:1 src/edit.js:62
 msgid "Year format"
