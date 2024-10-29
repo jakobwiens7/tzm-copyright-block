@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tzm/copyright",
+  "title": "Copyright",
+  "category": "theme",
+  "description": "Display a copyright notice with an automatically updated year.",
+  "keywords": [
+    "text",
+    "theme",
+    "copyright",
+    "footer"
+  ],
+  "textdomain": "tzm-copyright-block",
+  "attributes": {
+    "align": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string",
+      "source": "html",
+      "selector": ".wp-block-tzm-copyright__prefix"
+    },
+    "suffix": {
+      "type": "string",
+      "source": "html",
+      "selector": ".wp-block-tzm-copyright__suffix"
+    },
+    "yearFormat": {
+      "type": "string",
+      "default": "Y"
+    },
+    "isRange": {
+      "type": "boolean",
+      "default": false
+    },
+    "startingYear": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "text": true,
+      "background": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "margin": false,
+        "padding": false
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
