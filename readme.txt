@@ -18,9 +18,9 @@ The **TZM Copyright Block** is designed to streamline the display of copyright n
 You can customize the copyright display to fit your needs by:
 
 * Adding **prefixes and suffixes** to personalize your copyright text
-* Setting a *year range* to show start and end years (e.g., 2020–2024)
+* Setting a **year range** to show start and end years (e.g., 2020–2024)
 * Choosing between **full-year or two-digit formats** for a streamlined look
-* Using the Block Editor’s built-in styling options to seamlessly match your site’s design
+* Using the Block Editor’s **built-in styling options** to seamlessly match your site’s design
 
 This plugin ensures that setting up your copyright information is quick, easy, and requires no coding knowledge. It dynamically displays the year, so there’s no need to manually update the date on each website every year — a convenient solution for both small individual sites and large-scale corporate websites.
 
