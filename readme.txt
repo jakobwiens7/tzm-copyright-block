@@ -24,6 +24,13 @@ You can customize the copyright display to fit your needs by:
 
 This plugin ensures that setting up your copyright information is quick, easy, and requires no coding knowledge. It dynamically displays the year, so there’s no need to manually update the date on each website every year — a convenient solution for both small individual sites and large-scale corporate websites.
 
+=== Source Code ===
+
+The source code for TZM Copyright Block is available on GitHub! 
+Follow the development, report issues, and get involved in improving the plugin. We welcome contributions, feedback, and feature requests from the community. 
+
+* [View on GitHub](https://github.com/jakobwiens7/tzm-copyright-block)
+
 
 == Installation ==
 
