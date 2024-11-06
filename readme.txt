@@ -13,11 +13,16 @@ A simple block to display a copyright notice with a dynamically updated year.
 
 == Description ==
 
-The **TZM Copyright Block** is designed to streamline the display of copyright notices on websites. This plugin displays a copyright symbol with an automatically updated year, making it ideal for users who want a set-it-and-forget-it solution to keeping copyright information accurate and current.
+The **TZM Copyright Block** is designed to streamline the display of copyright notices on websites. This block displays a copyright symbol with an automatically updated year, making it ideal for users who want a set-it-and-forget-it solution to keeping copyright information accurate and current.
 
-You can customize the copyright display to fit your needs by adding prefixes and suffixes, setting year ranges, and choosing between full-year or two-digit formats. Seamlessly integrated with the WordPress Block Editor (Gutenberg), this plugin ensures that setting up your copyright information is quick, easy, and requires no coding knowledge. 
+You can customize the copyright display to fit your needs by:
 
-It dynamically displays the year, so there’s no need to manually update the date on each website every year — a convenient solution for both individual sites and large-scale networks.
+* Adding **prefixes and suffixes** to personalize your copyright text
+* Setting a *year range* to show start and end years (e.g., 2020–2024)
+* Choosing between **full-year or two-digit formats** for a streamlined look
+* Using the Block Editor’s built-in styling options to seamlessly match your site’s design
+
+This plugin ensures that setting up your copyright information is quick, easy, and requires no coding knowledge. It dynamically displays the year, so there’s no need to manually update the date on each website every year — a convenient solution for both small individual sites and large-scale corporate websites.
 
 
 == Installation ==
