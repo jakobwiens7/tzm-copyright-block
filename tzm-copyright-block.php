@@ -1,17 +1,16 @@
 <?php
 
 /**
- * Plugin Name:		TZM Copyright Block
- * Description:		Display a copyright notice with an automatically updated year.
- * Version:			1.0.0
- * Author:			TezmoMedia - Jakob Wiens
- * Author URI:		https://www.tezmo.media
- * License:			GPL-2.0-or-later
- * License URI:		https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:		tzm-copyright-block
- * Domain Path:		/languages
- *
- * @package	tzm
+ * Plugin Name:		  TZM Copyright Block
+ * Description:		  Display a copyright notice with an automatically updated year.
+ * Version:			  1.0.0
+ * Author:			  TezmoMedia - Jakob Wiens
+ * Author URI:		  https://www.tezmo.media
+ * License:			  GPL-2.0-or-later
+ * License URI:		  https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:		  tzm-copyright-block
+ * Domain Path:		  /languages
+ * Requires at least: 5.6
  */
 
 // Exit if accessed directly.
