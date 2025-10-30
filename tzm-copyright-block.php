@@ -3,7 +3,7 @@
 /**
  * Plugin Name:		  TZM Copyright Block
  * Description:		  Display a copyright notice with an automatically updated year.
- * Version:			  1.0.1
+ * Version:			  1.0.2
  * Author:			  TezmoMedia - Jakob Wiens
  * Author URI:		  https://www.tezmo.media
  * License:			  GPL-2.0-or-later

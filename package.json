@@ -1,6 +1,6 @@
 {
 	"name": "tzm-copyright-block",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Display a copyright notice with an automatically updated year.",
 	"author": "TezmoMedia - Jakob Wiens",
 	"license": "GPL-2.0-or-later",
@@ -19,9 +19,9 @@
 		"test:unit": "wp-scripts test-unit-js"
 	},
 	"dependencies": {
-		"@wordpress/block-editor": "^14.4.0",
-		"@wordpress/blocks": "^13.9.0",
-		"@wordpress/i18n": "^5.9.0",
+		"@wordpress/block-editor": "^15.7.0",
+		"@wordpress/blocks": "^15.7.0",
+		"@wordpress/i18n": "^6.7.0",
 		"clsx": "^2.1.1",
 		"colord": "^2.7.0",
 		"fast-average-color": "^9.1.1",
@@ -31,6 +31,6 @@
 		"po2json": "^0.3.0"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^30.1.0"
+		"@wordpress/scripts": "^30.27.0"
 	}
 }

@@ -2,7 +2,7 @@
 Contributors:       jakobwiens
 Tags:               block, theme, copyright, footer, year
 Tested up to:      	6.8
-Stable tag:         1.0.1
+Stable tag:         1.0.2
 License:            GPLv2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ No, TZM Copyright Block is specifically designed for the WordPress Block Editor 
 
 
 == Changelog ==
+
+= 1.0.2 =
+- Minor improvements
 
 = 1.0.1 =
 - Support WordPress 5.8
