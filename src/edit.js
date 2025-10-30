@@ -100,7 +100,7 @@ export default function edit( {
         <div { ...blockProps } >
             { (isSelected || prefix) && (
                 <RichText identifier="prefix"
-                    placeholder={ "..." }
+                    placeholder={ __("Prefix") }
                     tagName="span"
                     className="wp-block-tzm-copyright__prefix"
                     value={ prefix } 
@@ -113,7 +113,7 @@ export default function edit( {
             </span>
             { (isSelected || suffix) && (
                 <RichText identifier="suffix"
-                    placeholder={ "..." }
+                    placeholder={ __("Suffix") }
                     tagName="span"
                     className="wp-block-tzm-copyright__suffix"
                     value={ suffix } 
